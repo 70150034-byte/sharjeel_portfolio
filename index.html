@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sharjeel Shaukat, a Computer Science student building responsive, user-friendly web applications with HTML, CSS, JavaScript and PHP." />
+  <meta name="author" content="Sharjeel Shaukat" />
+  <meta property="og:title" content="Sharjeel Shaukat — Aspiring Full-Stack Web Developer" />
+  <meta property="og:description" content="Portfolio of Sharjeel Shaukat, an aspiring full-stack web developer based in Lahore, Pakistan." />
+  <meta property="og:image" content="assets/profile.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header id="site-header" class="site-header">
+    <div class="nav-wrap">
+      <div class="nav-bar">
+        <a href="#home" class="logo">
+          <span class="logo-mark">S</span>
+          <span class="logo-text" style="font-size: 2rem;">Sharjeel<span class="gradient-text">.</span></span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link active" data-section="home" style="font-size: 1.3rem; outline: none;">Home</a>
+          <a href="#about" class="nav-link" data-section="about" style="font-size: 1.3rem;">About</a>
+          <a href="#skills" class="nav-link" data-section="skills" style="font-size: 1.3rem;">Skills</a>
+          <a href="#services" class="nav-link" data-section="services" style="font-size: 1.3rem;">Services</a>
+          <a href="#portfolio" class="nav-link" data-section="portfolio" style="font-size: 1.3rem;">Portfolio</a>
+          <a href="#contact" class="nav-link" data-section="contact" style="font-size: 1.3rem;">Contact</a>
+        </nav>
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="m-link">Home</a>
+        <a href="#about" class="m-link">About</a>
+        <a href="#skills" class="m-link">Skills</a>
+        <a href="#services" class="m-link">Services</a>
+        <a href="#portfolio" class="m-link">Portfolio</a>
+        <a href="#contact" class="m-link">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="badge"><span class="dot"></span>Available for internships &amp; freelance</span>
+          <h1>Hello, I'm <br><span class="gradient-text">Sharjeel Shaukat</span></h1>
+          <p class="hero-role">Aspiring Full-Stack Web Developer</p>
+          <p class="hero-desc">
+            Motivated and detail-oriented Computer Science student with hands-on
+            experience in web development using HTML, CSS, JavaScript, and PHP.
+            Passionate about building responsive, user-friendly, and visually
+            appealing web applications that solve real-world problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary">View Projects →</a>
+            <a href="#" class="btn btn-ghost">Download Resume</a>
+            <a href="#contact" class="btn btn-link">Contact Me</a>
+          </div>
+          <div class="stats">
+            <div class="stat"><div class="stat-n gradient-text">2+</div><div class="stat-l">Projects Built</div></div>
+            <span class="stat-sep"></span>
+            <div class="stat"><div class="stat-n gradient-text">5+</div><div class="stat-l">Technologies</div></div>
+            <span class="stat-sep"></span>
+            <div class="stat"><div class="stat-n gradient-text">2027</div><div class="stat-l">Graduating</div></div>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <div class="photo-glow"></div>
+            <div class="photo-ring"></div>
+            <div class="photo-dashed"></div>
+            <div class="photo-img">
+              <img src="assets/profile.png" alt="Sharjeel Shaukat" />
+            </div>
+            <div class="float-tag tag-left">
+              <div>PHP · MySQL</div><small>Backend</small>
+            </div>
+            <div class="float-tag tag-right">
+              <div>HTML · CSS · JS</div><small>Frontend</small>
+            </div>
+            <div class="bottom-chip">BSCS · UOL</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">About Me</span>
+          <h2>Designing solutions, <span class="gradient-text">not just code</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="reveal about-text">
+            <p>I'm currently pursuing a <strong>Bachelor of Science in Computer Science (BSCS)</strong> at the University of Lahore, with a strong interest in both frontend and backend web development.</p>
+            <p>I love writing clean, maintainable, and efficient code. My goal is to grow into a skilled Full-Stack Web Developer, continuously learning modern technologies and shipping web apps that solve real-world problems.</p>
+            <div class="info-grid">
+              <div class="info-card"><div class="info-k">Focus</div><div class="info-v">Full-Stack Web</div></div>
+              <div class="info-card"><div class="info-k">Location</div><div class="info-v">Lahore, Pakistan</div></div>
+              <div class="info-card"><div class="info-k">Degree</div><div class="info-v">BSCS, UOL</div></div>
+              <div class="info-card"><div class="info-k">Status</div><div class="info-v">Open to work</div></div>
+            </div>
+          </div>
+          <div class="reveal">
+            <h3 class="timeline-title">Education Timeline</h3>
+            <ol class="timeline">
+              <li><div class="t-dot"></div><div class="t-card"><div class="t-head"><h4>LAPS</h4><span class="t-year">Foundations</span></div><p>School</p></div></li>
+              <li><div class="t-dot"></div><div class="t-card"><div class="t-head"><h4>FCCU</h4><span class="t-year">Pre-University</span></div><p>College</p></div></li>
+              <li><div class="t-dot"></div><div class="t-card"><div class="t-head"><h4>University of Lahore (UOL)</h4><span class="t-year">Expected 2027</span></div><p>BS Computer Science</p></div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Skills</span>
+          <h2>What I <span class="gradient-text">work with</span></h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Programming</h3>
+            <ul class="skill-list">
+              <li data-skill="75"><div class="srow"><span>JavaScript</span><span>75%</span></div><div class="sbar"><div class="sfill" style="width:75%"></div></div></li>
+              <li data-skill="70"><div class="srow"><span>PHP</span><span>70%</span></div><div class="sbar"><div class="sfill" style="width:70%"></div></div></li>
+              <li data-skill="45"><div class="srow"><span>C++ (Basic)</span><span>45%</span></div><div class="sbar"><div class="sfill" style="width:45%"></div></div></li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Frontend</h3>
+            <ul class="skill-list">
+              <li><div class="srow"><span>HTML5</span><span>92%</span></div><div class="sbar"><div class="sfill" style="width:92%"></div></div></li>
+              <li><div class="srow"><span>CSS3</span><span>88%</span></div><div class="sbar"><div class="sfill" style="width:88%"></div></div></li>
+              <li><div class="srow"><span>Responsive Design</span><span>85%</span></div><div class="sbar"><div class="sfill" style="width:85%"></div></div></li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Backend &amp; Tools</h3>
+            <ul class="skill-list">
+              <li><div class="srow"><span>MySQL</span><span>72%</span></div><div class="sbar"><div class="sfill" style="width:72%"></div></div></li>
+              <li><div class="srow"><span>Git</span><span>70%</span></div><div class="sbar"><div class="sfill" style="width:70%"></div></div></li>
+              <li><div class="srow"><span>VS Code</span><span>90%</span></div><div class="sbar"><div class="sfill" style="width:90%"></div></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="soft-skills reveal">
+          <span class="chip">Communication</span>
+          <span class="chip">Teamwork</span>
+          <span class="chip">Problem-Solving</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Services</span>
+          <h2>Things I can <span class="gradient-text">build for you</span></h2>
+        </div>
+        <div class="services-grid">
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h16"/></svg></div><h3>Frontend Web Development</h3><p>Pixel-perfect, accessible interfaces using HTML, CSS, and JavaScript.</p></div>
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l8-4 8 4-8 4-8-4zm0 5l8 4 8-4M4 17l8 4 8-4"/></svg></div><h3>Backend Development</h3><p>Server-side logic and data layers with PHP and MySQL.</p></div>
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9-9 9-9-9z"/></svg></div><h3>Full-Stack Web Apps</h3><p>End-to-end web applications wired from database to UI.</p></div>
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v10H3zM7 19h10"/></svg></div><h3>Responsive Website Design</h3><p>Layouts that look great on every device, from phone to desktop.</p></div>
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg></div><h3>UI / UX Design</h3><p>Clean, modern interfaces with a clear visual hierarchy.</p></div>
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v6l4 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Website Maintenance</h3><p>Updates, fixes, and improvements to keep your site healthy.</p></div>
+          <div class="service reveal"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v6H4zM4 14h10v6H4z"/></svg></div><h3>Custom Web Applications</h3><p>Tailored web tools built around your specific workflow.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Recent <span class="gradient-text">projects</span></h2>
+        </div>
+        <div class="portfolio-grid">
+          <article class="project reveal">
+            <div class="project-cover cover-1">
+              <div class="cover-dots"></div>
+              <div class="cover-foot"><span class="filename">project_1.php</span><span class="dots-row"><i></i><i></i><i></i></span></div>
+            </div>
+            <div class="project-body">
+              <h3>E-Commerce Website</h3>
+              <p>Responsive online shopping platform with product listings, shopping cart, and an intuitive user interface.</p>
+              <div class="tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+              </div>
+              <ul class="features">
+                <li><i></i>Responsive Design</li><li><i></i>Product Catalog</li>
+                <li><i></i>Shopping Cart</li><li><i></i>Dynamic Pages</li>
+              </ul>
+              <div class="project-actions">
+                <a href="#" class="btn btn-ghost">GitHub</a>
+                <a href="#" class="btn btn-primary">Live Demo →</a>
+              </div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-cover cover-2">
+              <div class="cover-dots"></div>
+              <div class="cover-foot"><span class="filename">project_2.php</span><span class="dots-row"><i></i><i></i><i></i></span></div>
+            </div>
+            <div class="project-body">
+              <h3>Authentication System</h3>
+              <p>Secure auth flow for the e-commerce site — user registration, login, and database integration.</p>
+              <div class="tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+              </div>
+              <ul class="features">
+                <li><i></i>User Registration</li><li><i></i>Secure Login</li>
+                <li><i></i>Sessions</li><li><i></i>DB Integration</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/70150034-byte/Login-signup-page-php" class="btn btn-ghost">GitHub</a>
+                <a href="https://login-signup.great-site.net/login.php" class="btn btn-primary">Live Demo →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's <span class="gradient-text">work together</span></h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-cards reveal">
+            <a class="contact-card" href="mailto:sharjeelshoukat78@gmail.com"><div class="info-k">Email</div><div class="contact-v">sharjeelshoukat78@gmail.com</div></a>
+            <a class="contact-card" href="tel:+923124036963"><div class="info-k">Phone</div><div class="contact-v">+92 312-4036963</div></a>
+            <a class="contact-card" href="#"><div class="info-k">Location</div><div class="contact-v">Lahore, Pakistan</div></a>
+          </div>
+          <form id="contactForm" class="contact-form reveal" >
+            <div class="form-row">
+              <div class="field"><label>Name</label><input type="text" name="name" placeholder="Your name" required maxlength="200" /></div>
+              <div class="field"><label>Email</label><input type="email" name="email" placeholder="you@example.com" required maxlength="200" /></div>
+            </div>
+            <div class="field"><label>Subject</label><input type="text" name="subject" placeholder="What's this about?" maxlength="200" /></div>
+            <div class="field"><label>Message</label><textarea name="message" rows="5" placeholder="Tell me about your project…" required></textarea></div>
+            <div class="form-foot">
+              <button type="submit" class="btn btn-primary">Send Message →</button>
+              <span id="formStatus" class="form-status"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo"><span class="logo-mark">S</span><span class="logo-text">Sharjeel<span class="gradient-text">.</span></span></div>
+        <p class="footer-about">Aspiring full-stack web developer based in Lahore, Pakistan. Open to internships, freelance, and junior roles.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="quick-links">
+          <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li><li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li><li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="socials">
+          <a href="#" style="font-size: 1.1rem;">GitHub</a><a href="#" style="font-size: 1.1rem;">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div>© <span id="year"></span> Sharjeel Shaukat. All rights reserved.</div>
+      <div>Designed &amp; Developed by <span class="muted-strong">Sharjeel Shaukat</span></div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
