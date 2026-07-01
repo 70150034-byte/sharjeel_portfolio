@@ -1,6 +1,6 @@
 /* ===== Reset & Tokens ===== */
 *,*::before,*::after{box-sizing:border-box}
-html,body{margin:0;padding:0}
+html,body{margin:0;padding:0;overflow-y:scroll;}
 :root{
   --bg:#0F172A; --fg:#F8FAFC; --muted:#94A3B8;
   --card:#1E293B; --card-2:rgba(30,41,59,.75);
@@ -237,8 +237,28 @@ input,textarea{font-family:inherit}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* ===== Responsive ===== */
-@media(max-width:767px){
-  .nav-links,.hire-btn{display:none}
-  .menu-toggle{display:grid}
-  .stats{gap:1rem;flex-wrap:wrap}
+@media (max-width:767px){
+
+  .nav-links,
+  .hire-btn{
+    display:none;
+  }
+
+  .nav-bar{
+    position:relative;
+  }
+
+  .menu-toggle{
+    display:grid;
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:1000;
+  }
+
+  .stats{
+    gap:1rem;
+    flex-wrap:wrap;
+  }
 }
